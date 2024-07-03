@@ -1,0 +1,22 @@
+{
+	"name": "new_cv",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint:check": "biome check --verbose --log-level=error",
+		"lint:fix": "biome check --fix"
+	},
+
+	"dependencies": {
+		"nuxt": "3.12.2",
+		"vue": "latest"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3"
+	}
+}
