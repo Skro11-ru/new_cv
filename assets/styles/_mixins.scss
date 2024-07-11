@@ -1,0 +1,32 @@
+// Mixin for Primary button
+@mixin button-primary {
+	background-color: $color-accent-orange;
+	color: $color-primary-darkest;
+	border: none;
+	border-radius: $border-radius;
+	padding: 0.5em 1em;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+// Mixin for Default button
+@mixin button-default {
+	background-color: $color-default;
+	color: $color-secondary-white;
+	border: none;
+	border-radius: $border-radius;
+	padding: 0.5em 1em;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+// Mixin for Ghost button
+@mixin button-ghost {
+	background-color: transparent;
+	color: $color-secondary-white;
+	border: 1px solid $color-secondary-white;
+	border-radius: $border-radius;
+	padding: 0.5em 1em;
+	font-size: 1em;
+	cursor: pointer;
+}

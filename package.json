@@ -1,22 +1,24 @@
 {
-	"name": "new_cv",
-	"private": true,
-	"type": "module",
-	"scripts": {
-		"build": "nuxt build",
-		"dev": "nuxt dev",
-		"generate": "nuxt generate",
-		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare",
-		"lint:check": "biome check --verbose --log-level=error",
-		"lint:fix": "biome check --fix"
-	},
-
-	"dependencies": {
-		"nuxt": "3.12.2",
-		"vue": "latest"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.8.3"
-	}
+  "name": "new_cv",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint:check": "biome check --verbose --log-level=error",
+    "lint:fix": "biome check --fix"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.0.0",
+    "nuxt": "3.12.2",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@iconify-json/ri": "^1.1.21",
+    "sass": "^1.77.6"
+  }
 }
